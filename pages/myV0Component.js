@@ -11,7 +11,7 @@ export default function Component() {
             alt="Nike Logo"
             className="h-8 w-auto"
             height={50}
-            src="https://cdn.mos.cms.futurecdn.net/786NzPhpXo6G8hkutJkHTM-1200-80.jpg"
+            src="https://img.etimg.com/thumb/msid-59738997,width-640,resizemode-4/industry/services/advertising/hidden-meaning-of-11-worlds-most-famous-logos/nike.jpg"
             style={{
               aspectRatio: "50/50",
               objectFit: "cover",
