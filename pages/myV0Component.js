@@ -173,13 +173,13 @@ export default function Component() {
             <img
               alt="Product Image"
               className="object-cover w-full h-48"
-              height={600}
+              height={100}
               src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08de128a-b6c9-4543-8339-cdf0281ab95a/air-max-270-mens-shoes-KkLcGR.png"
               style={{
                 aspectRatio: "200/200",
                 objectFit: "cover",
               }}
-              width={300}
+              width={100}
             />
             <h3 className="font-semibold text-lg">Nike Air Max 270</h3>
             <div className="flex items-center space-x-2">
@@ -188,7 +188,7 @@ export default function Component() {
                 <svg
                   className=" w-4 h-4"
                   fill="none"
-                  height="24"
+                  height="20"
                   stroke="currentColor"
                   strokeLinecap="round"
                   strokeLinejoin="round"
