@@ -11,7 +11,7 @@ export default function Component() {
             alt="Nike Logo"
             className="h-8 w-auto"
             height={50}
-            src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5362a828-0f5b-4d17-a6c5-d0677dc89baa_1000x1000.jpeg"
+            src="https://cdn.mos.cms.futurecdn.net/786NzPhpXo6G8hkutJkHTM-1200-80.jpg"
             style={{
               aspectRatio: "50/50",
               objectFit: "cover",
