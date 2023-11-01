@@ -170,17 +170,31 @@ export default function Component() {
         </aside>
         <div className="flex-grow grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           <div className="space-y-2">
+                    'use client'
+ 
+import Image from 'next/image'
+ 
+const imageLoader = ({ src, width, quality }) => {
+  return `https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/pyyixbczj6u5kiwhpjik/air-max-270-womens-shoes-Pgb94t.png/${src}?w=${width}&q=${quality || 75}`
+}
+ 
+export default function Page() {
+  return (                    
             <img
               alt="Product Image"
               className="object-cover w-full h-48"
               height={200}
-              src="/https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/pyyixbczj6u5kiwhpjik/air-max-270-womens-shoes-Pgb94t.png"
+              src="/placeholder.svg"
               style={{
                 aspectRatio: "200/200",
                 objectFit: "cover",
               }}
               width={200}
             />
+
+          )
+                }
+            
             <h3 className="font-semibold text-lg">Nike Air Max 270</h3>
             <div className="flex items-center space-x-2">
               <span className="font-bold text-lg">$150</span>
