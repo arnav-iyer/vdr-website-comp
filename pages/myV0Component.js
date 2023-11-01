@@ -173,13 +173,13 @@ export default function Component() {
             <img
               alt="Product Image"
               className="object-cover w-full h-48"
-              height={200}
+              height={600}
               src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08de128a-b6c9-4543-8339-cdf0281ab95a/air-max-270-mens-shoes-KkLcGR.png"
               style={{
                 aspectRatio: "200/200",
                 objectFit: "cover",
               }}
-              width={200}
+              width={300}
             />
             <h3 className="font-semibold text-lg">Nike Air Max 270</h3>
             <div className="flex items-center space-x-2">
