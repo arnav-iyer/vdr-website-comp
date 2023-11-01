@@ -171,7 +171,6 @@ export default function Component() {
         <div className="flex-grow grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           <div className="space-y-2">
                     'use client'
- 
 import Image from 'next/image'
  
 const imageLoader = ({ src, width, quality }) => {
