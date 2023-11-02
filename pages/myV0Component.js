@@ -172,8 +172,8 @@ export default function Component() {
           <div className="space-y-2">
             <img
               alt="Product Image"
-              className="object-cover w-full h-48"
-              height={100}
+              className="object-cover w-full h-100"
+              // height={50}
               src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/08de128a-b6c9-4543-8339-cdf0281ab95a/air-max-270-mens-shoes-KkLcGR.png"
               style={{
                 aspectRatio: "200/200",
