@@ -263,7 +263,7 @@ export default function Component() {
           </div>
         </div>
       </main>
-      <footer className="p-4 bg-gray-100 dark:bg-gray-800">
+      <footer className="p-4 bg-gray-100 dark:bg-gray-800 fixed bottom-0 left-0 right-0">
         <div className="flex items-center justify-between">
           <div>
             <p className="text-sm text-gray-800 dark:text-gray-200">© 2023 Nike, Inc. All Rights Reserved</p>
