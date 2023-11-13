@@ -5,7 +5,7 @@
 export default function Component() {
   return (
     <div className="flex flex-col h-full">
-      <header className="flex items-center justify-between p-4 bg-white dark:bg-gray-800">
+      <header className="flex items-center justify-between p-4 bg-white">
         <div className="flex items-center space-x-4">
           <img
             alt="Nike Logo"
@@ -21,22 +21,22 @@ export default function Component() {
           <nav className="hidden md:block">
             <ul className="flex space-x-2">
               <li>
-                <a className="text-gray-800 dark:text-gray-200" href="#">
+                <a className="text-gray-800 " href="#">
                   Men
                 </a>
               </li>
               <li>
-                <a className="text-gray-800 dark:text-gray-200" href="#">
+                <a className="text-gray-800 " href="#">
                   Women
                 </a>
               </li>
               <li>
-                <a className="text-gray-800 dark:text-gray-200" href="#">
+                <a className="text-gray-800 " href="#">
                   Kids
                 </a>
               </li>
               <li>
-                <a className="text-gray-800 dark:text-gray-200" href="#">
+                <a className="text-gray-800 " href="#">
                   Sale
                 </a>
               </li>
@@ -45,13 +45,13 @@ export default function Component() {
         </div>
         <div className="relative w-64">
           <input
-            className="pl-10 pr-5 w-full h-10 rounded-md border border-gray-300 dark:border-gray-700"
+            className="pl-10 pr-5 w-full h-10 rounded-md border border-gray-300"
             placeholder="Search products"
             type="text"
           />
           <div className="absolute left-3 top-2">
             <svg
-              className=" w-5 h-5 text-gray-500 dark:text-gray-400"
+              className=" w-5 h-5 text-gray-500"
               fill="none"
               height="24"
               stroke="currentColor"
@@ -74,27 +74,27 @@ export default function Component() {
             <h2 className="font-semibold text-xl">Categories</h2>
             <ul className="space-y-1">
               <li>
-                <a className="block text-gray-800 dark:text-gray-200" href="#">
+                <a className="block text-gray-800" href="#">
                   Running
                 </a>
               </li>
               <li>
-                <a className="block text-gray-800 dark:text-gray-200" href="#">
+                <a className="block text-gray-800 " href="#">
                   Training & Gym
                 </a>
               </li>
               <li>
-                <a className="block text-gray-800 dark:text-gray-200" href="#">
+                <a className="block text-gray-800 " href="#">
                   Basketball
                 </a>
               </li>
               <li>
-                <a className="block text-gray-800 dark:text-gray-200" href="#">
+                <a className="block text-gray-800 " href="#">
                   Football
                 </a>
               </li>
               <li>
-                <a className="block text-gray-800 dark:text-gray-200" href="#">
+                <a className="block text-gray-800 " href="#">
                   Skateboarding
                 </a>
               </li>
@@ -105,7 +105,7 @@ export default function Component() {
             <ul className="flex flex-wrap gap-2">
               <li>
                 <a
-                  className="block px-4 py-2 text-gray-800 dark:text-gray-200 rounded-md border border-gray-300 dark:border-gray-700"
+                  className="block px-4 py-2 text-gray-800 rounded-md border border-gray-300"
                   href="#"
                 >
                   S
@@ -113,7 +113,7 @@ export default function Component() {
               </li>
               <li>
                 <a
-                  className="block px-4 py-2 text-gray-800 dark:text-gray-200 rounded-md border border-gray-300 dark:border-gray-700"
+                  className="block px-4 py-2 text-gray-800  rounded-md border border-gray-300"
                   href="#"
                 >
                   M
@@ -121,7 +121,7 @@ export default function Component() {
               </li>
               <li>
                 <a
-                  className="block px-4 py-2 text-gray-800 dark:text-gray-200 rounded-md border border-gray-300 dark:border-gray-700"
+                  className="block px-4 py-2 text-gray-800  rounded-md border border-gray-300"
                   href="#"
                 >
                   L
@@ -129,7 +129,7 @@ export default function Component() {
               </li>
               <li>
                 <a
-                  className="block px-4 py-2 text-gray-800 dark:text-gray-200 rounded-md border border-gray-300 dark:border-gray-700"
+                  className="block px-4 py-2 text-gray-800  rounded-md border border-gray-300"
                   href="#"
                 >
                   XL
@@ -141,22 +141,22 @@ export default function Component() {
             <h2 className="font-semibold text-xl">Price Range</h2>
             <ul className="space-y-1">
               <li>
-                <a className="block text-gray-800 dark:text-gray-200" href="#">
+                <a className="block text-gray-800 " href="#">
                   $0 - $50
                 </a>
               </li>
               <li>
-                <a className="block text-gray-800 dark:text-gray-200" href="#">
+                <a className="block text-gray-800 " href="#">
                   $50 - $100
                 </a>
               </li>
               <li>
-                <a className="block text-gray-800 dark:text-gray-200" href="#">
+                <a className="block text-gray-800 " href="#">
                   $100 - $150
                 </a>
               </li>
               <li>
-                <a className="block text-gray-800 dark:text-gray-200" href="#">
+                <a className="block text-gray-800 " href="#">
                   $150+
                 </a>
               </li>
@@ -263,25 +263,25 @@ export default function Component() {
           </div>
         </div>
       </main>
-      <footer className="p-4 bg-gray-100 dark:bg-gray-800 fixed bottom-0 left-0 right-0">
+      <footer className="p-4 bg-gray-100 fixed bottom-0 left-0 right-0">
         <div className="flex items-center justify-between">
           <div>
-            <p className="text-sm text-gray-800 dark:text-gray-200">© 2023 Nike, Inc. All Rights Reserved</p>
+            <p className="text-sm text-gray-800 ">© 2023 Nike, Inc. All Rights Reserved</p>
           </div>
           <nav>
             <ul className="flex space-x-2">
               <li>
-                <a className="text-sm text-gray-800 dark:text-gray-200" href="#">
+                <a className="text-sm text-gray-800 " href="#">
                   About Us
                 </a>
               </li>
               <li>
-                <a className="text-sm text-gray-800 dark:text-gray-200" href="#">
+                <a className="text-sm text-gray-800 " href="#">
                   Contact Us
                 </a>
               </li>
               <li>
-                <a className="text-sm text-gray-800 dark:text-gray-200" href="#">
+                <a className="text-sm text-gray-800 " href="#">
                   Terms of Service
                 </a>
               </li>
